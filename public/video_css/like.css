@@ -1,0 +1,52 @@
+.button_like {
+    background-image: url(like.png);
+    background-repeat: no-repeat; 
+    background-position: 2px 0;
+    border: none;           
+    cursor: pointer;       
+    height: 32px;          
+    padding-left: 40px;    
+    vertical-align: middle;
+    background-color:#353333;
+    color:#FFFFFF;
+   }
+.button_unlike {
+    background-image: url(like.png);
+    background-repeat: no-repeat; 
+    background-position: 2px -31px;
+    border: none;           
+    cursor: pointer;       
+    height: 32px;          
+    padding-left: 40px;    
+    vertical-align: middle;
+    background-color:#353333;
+    color:#FFFFFF;
+    }
+
+
+.button_FV_ADD {
+    background-image: url(favorites_add.png);
+    background-repeat: no-repeat; 
+    background-position: 6px 3px;
+    border: none;           
+    cursor: pointer;       
+    height: 32px;          
+    padding-left: 40px;    
+    vertical-align: middle;
+    background-color:#353333;
+    color:#FFFFFF;
+    }
+
+.button_FV_RMV {
+    background-image: url(favorites_rmv.png);
+    background-repeat: no-repeat; 
+    background-position: 6px 3px;
+    border: none;           
+    cursor: pointer;       
+    height: 32px;          
+    padding-left: 40px;    
+    vertical-align: middle;
+    background-color:#353333;
+    color:#FFFFFF;
+    }
+

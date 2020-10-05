@@ -1,0 +1,21 @@
+.form-group.excerpt .CodeMirror {
+    height: 150px;
+    min-height: 130px;
+}
+.editor-toolbar.fullscreen {
+    z-index: 1998;
+}
+.CodeMirror-fullscreen {
+    z-index: 1998;
+}
+
+a.selected-post-status {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+/* admin */
+select#cab {
+    width: 100%;
+    height: 30px;
+}

@@ -1,0 +1,74 @@
+body {
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 16px;
+    margin-left: 20px;
+	font:200 15px/16px 'Oswald', sans-serif;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 0px;
+}
+
+
+/* video  */
+.video-container {
+    /* margin-top: 50px; */
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    /* height: 225px; */
+}
+
+video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 5px;}
+  .sidenav a {font-size: 13px;}
+}
+
+@media screen and (max-width: 410px) {
+    .video-container {
+        /* margin-top: 50px; */
+        width: 90%;
+    }
+      
+  }
